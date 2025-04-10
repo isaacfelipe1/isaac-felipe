@@ -6,8 +6,7 @@
     "format": "prettier --write .",
     "dev": "next dev  --turbopack",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
   "dependencies": {
     "next": "15.2.4",
