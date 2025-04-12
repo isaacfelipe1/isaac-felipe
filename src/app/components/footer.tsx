@@ -1,6 +1,6 @@
 import React from 'react';
 
-const releaseVersion = 'v1.0.1';
+const releaseVersion = 'v1.0.2';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
