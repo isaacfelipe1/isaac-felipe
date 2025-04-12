@@ -4,7 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Roboto_Mono } from 'next/font/google';
-const releaseVersion = 'v1.0.1';
+const releaseVersion = 'v1.0.2';
 const robotoMono = Roboto_Mono({
   variable: '--font-roboto-mono',
   subsets: ['latin'],
