@@ -50,7 +50,7 @@ export default function Nav() {
           </li>
           <li>
             <Link
-              href="/publicacoes"
+              href="/publications"
               className={`text-[#F3EFE0] hover:text-argila transition-colors duration-200 ${pathname === '/publicacoes' ? 'underline' : ''}`}
             >
               Publicações
@@ -122,7 +122,7 @@ export default function Nav() {
           </li>
           <li>
             <Link
-              href="/publicacoes"
+              href="/publications"
               className="block text-[#F3EFE0] hover:text-[#D9A066] py-1 transition-colors duration-200"
               onClick={closeMenu}
             >
