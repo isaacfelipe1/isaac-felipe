@@ -69,7 +69,9 @@ export default function Timeline() {
           </div>
           <div className="relative flex items-center mb-16">
             <div className="w-1/2 pr-8 text-right">
-              <h3 className="text-2xl font-bold text-[#1A202C]">Central de Materiais-SYX</h3>
+              <h3 className="text-2xl font-bold text-[#1A202C]">
+                Central de Materiais-SYX
+              </h3>
               <p className="text-sm text-argila">fev de 2024 - set de 2024</p>
               <div className="mt-4">
                 <h4 className="text-lg font-semibold text-argila">
@@ -101,15 +103,15 @@ export default function Timeline() {
               />
             </div>
             <div className="w-1/2 pl-8 text-left">
-              <h3 className="text-2xl font-bold text-[#1A202C]">
-                RECODE
-              </h3>
+              <h3 className="text-2xl font-bold text-[#1A202C]">RECODE</h3>
               <p className="text-sm text-argila">jun de 2023 - jan de 2024</p>
               <div className="mt-4">
                 <h4 className="text-lg font-semibold text-[#1A202C]">
                   Software Developer Full Stack
                 </h4>
-                <p className="text-sm">React, Next.js, .NET, C#, Git, Tailwind CSS, SQL.</p>
+                <p className="text-sm">
+                  React, Next.js, .NET, C#, Git, Tailwind CSS, SQL.
+                </p>
               </div>
             </div>
           </div>
