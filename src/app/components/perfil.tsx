@@ -108,12 +108,36 @@ export default function Perfil() {
                   />
                 </svg>
               </a>
+              <a
+                href="https://www.youtube.com/@IsaacFelipe-dev"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="YouTube"
+                className="text-[#F3EFE0] md:text-[#E9C46A] hover:text-[#D9A066]"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-6 w-6 md:h-8 md:w-8"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M19.615 3.184c-1.09-.818-3.635-1.184-7.615-1.184s-6.525.366-7.615 
+        1.184c-1.09.818-1.385 2.89-1.385 5.816v6c0 2.926.295 4.998 1.385 
+        5.816 1.09.818 3.635 1.184 7.615 1.184s6.525-.366 7.615-1.184c1.09-.818 
+        1.385-2.89 1.385-5.816v-6c0-2.926-.295-4.998-1.385-5.816zm-10.615 
+        12.816v-8l8 4-8 4z"
+                  />
+                </svg>
+              </a>
             </div>
           </div>
         </div>
       </div>
       <footer className="w-full bg-[#1A202C] text-[#F3EFE0] text-center py-4">
-        <p>© {new Date().getFullYear()} I. Felipe- {releaseVersion} </p>
+        <p>
+          © {new Date().getFullYear()} I. Felipe- {releaseVersion}{' '}
+        </p>
       </footer>
     </div>
   );
